@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "header";
+@import "body";
+@import "footer";
+@import "redes";
+@import "info";
+@import "video";
+@import "sponsor";
+@import "contacto";
+@import "index";
+@import "media";
+
+
+$headings: (
+    h1: 4em,
+    h2: 3em,
+);
+
+$h1: map-get($headings, h1);
+
+

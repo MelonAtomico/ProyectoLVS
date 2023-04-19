@@ -1,0 +1,23 @@
+.imgsponsor{
+
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgsponsor:hover{ 
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.contenedor-sponsor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

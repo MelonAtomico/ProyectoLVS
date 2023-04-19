@@ -1,0 +1,473 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin-left: 10px;
+}
+nav ul li a {
+  background-size: 100px;
+  color: white;
+  font-size: 20px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  background-color: black;
+  font-size: 20px;
+  padding: 7px;
+  color: white;
+  transition: color 0.5s;
+  margin: 0;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 153, 0, 0.459);
+}
+
+.container-fluid header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-toggler {
+  margin-left: 15px;
+}
+
+.mx-auto {
+  margin-right: 25px;
+  margin-right: 15px;
+}
+
+.dropdown {
+  font-size: 20px;
+  color: white;
+  transition: color 0.5s;
+  margin-left: 0;
+}
+.dropdown:hover {
+  color: rgba(255, 153, 0, 0.459);
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  transition: color 0.5s;
+}
+.dropdown .dropdown-menu .dropdown-item:hover {
+  color: rgba(255, 153, 0, 0.459);
+}
+
+.dropdown .dropdown-menu {
+  background-color: black;
+  border-color: rgb(37, 35, 35);
+}
+
+body {
+  font-family: "Alegreya Sans SC";
+  background-image: url("https://media.discordapp.net/attachments/805275192111661082/982124052892246067/jay-rembert-wTUm3le1WqI-unsplash.jpg?width=1025&height=683");
+  height: 1200px;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center;
+  padding-bottom: 30px;
+}
+
+#box {
+  background-color: rgba(57, 55, 55, 0.568627451);
+  border: 4px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+p {
+  color: white;
+  font-size: 17px;
+}
+
+h1 {
+  color: rgb(252, 251, 251);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(252, 251, 251);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(252, 251, 251);
+  text-align: center;
+}
+
+h4 {
+  color: rgb(252, 251, 251);
+  text-align: center;
+}
+
+h5 {
+  color: rgb(252, 251, 251);
+  text-align: center;
+}
+
+hr {
+  border-top: 2px solid #0f0f0f;
+  border-bottom: 2px solid #0f0f0f;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 10px;
+  height: 100PX;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  align-items: center;
+  text-align: center;
+}
+footer .redes-footer {
+  display: flex;
+  flex-direction: row;
+}
+footer .redes-footer .imgredes {
+  width: 60px;
+  height: 60px;
+}
+footer .redes-footer .imgredes:hover {
+  transform: scale(1.1);
+}
+
+div.redes {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  padding: 5px;
+}
+
+.galery {
+  padding-bottom: 100px;
+}
+
+.contenedor-seccionvideo {
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: 600px;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 25px;
+  padding: 15px;
+}
+.contenedor-seccionvideo .descripcion-videos {
+  font-size: 25px;
+}
+.contenedor-seccionvideo .videos {
+  width: 700px;
+  height: 450px;
+  border-radius: 3%;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.imgsponsor {
+  width: 250px;
+  height: 150px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.imgsponsor:hover {
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.contenedor-sponsor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.discord-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 350px;
+  height: 500px;
+}
+
+.formulario {
+  margin: 20px;
+}
+
+.index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.index-body {
+  color: rgb(0, 0, 0);
+}
+
+.index-title {
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 25px;
+}
+
+.index-date {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.index-company {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.index-position {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.index-description {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.index-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.index-image .box {
+  width: auto;
+  height: auto;
+}
+
+.index_left, .index-right {
+  background-color: rgba(255, 123, 0, 0.521);
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .index-body {
+    width: 80%;
+    padding-bottom: 140px;
+  }
+  .index-title {
+    font-size: 50px;
+    margin: 35px 0;
+  }
+  .index-date {
+    font-size: 40px;
+  }
+  .index-company {
+    font-size: 25px;
+  }
+  .index-position {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .index-description {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.3;
+  }
+  .index_left, .index-right {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+  }
+  .index-grid {
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 20px 70px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .line {
+    background-color: rgba(255, 123, 0, 0.521);
+    position: relative;
+  }
+}
+@media (min-width: 768px) {
+  .iframe {
+    width: 500px;
+    height: 350px;
+  }
+  .discord-form {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 320px) {
+  .index-body {
+    width: 100%;
+    padding-bottom: 140px;
+  }
+  .index_left, .index-right {
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+  }
+  .iframe {
+    width: 200px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .discord-form {
+    width: 250px;
+  }
+  .contenedor-seccionvideo {
+    grid-template-columns: repeat(2, 500px);
+    margin: 5px;
+  }
+  .videos {
+    max-width: 500px;
+    max-height: 380px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .discord-form {
+    width: 250px;
+  }
+  .contenedor-seccionvideo {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 5px;
+  }
+  .videos {
+    max-width: 600px;
+    max-height: 400px;
+  }
+  .descripcion-videos {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .discord-form {
+    width: 250px;
+  }
+  .contenedor-seccionvideo {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 5px;
+  }
+  .videos {
+    max-width: 550px;
+    max-height: 350px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .discord-form {
+    width: 250px;
+  }
+  .imgsponsor {
+    width: 120px;
+    height: 120px;
+  }
+  .contenedor-seccionvideo {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 5px;
+  }
+  .videos {
+    max-width: 450px;
+    max-height: 300px;
+  }
+  .descripcion-videos {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .discord-form {
+    width: 250px;
+  }
+  .imgsponsor {
+    width: 90px;
+    height: 80px;
+  }
+  .contenedor-seccionvideo {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 5px;
+  }
+  .videos {
+    max-width: 300px;
+    max-height: 200px;
+  }
+  .descripcion-videos {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .discord-form {
+    width: 250px;
+  }
+  .imgsponsor {
+    width: 90px;
+    height: 80px;
+  }
+  .contenedor-seccionvideo {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 5px;
+  }
+  .videos {
+    max-width: 220px;
+    max-height: 150px;
+  }
+}/*# sourceMappingURL=main.css.map */

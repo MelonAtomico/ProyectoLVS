@@ -1,0 +1,26 @@
+
+.contenedor-seccionvideo{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 25px;
+    padding: 15px;
+    .descripcion-videos{
+        font-size: 25px;
+    }
+    .videos{
+        width: 700px;
+        height: 450px;
+        border-radius: 3%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+}
+

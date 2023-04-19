@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+    height: 100PX;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    align-items: center;
+    text-align: center;
+    .redes-footer{
+        display: flex;
+        flex-direction: row;
+        .imgredes{
+            width: 60px;
+            height: 60px;
+        }
+        .imgredes:hover{
+            transform: scale(1.1);
+        }
+    }
+}
